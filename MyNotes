@@ -1,0 +1,14 @@
+1. when you have something like this...in visual studio..
+
+288 outgoing / 21 incoming
+
+then you can use this command
+
+git gc --prune=now
+
+in the garbage collector it basically prune (compress) unreachable objects.
+
+
+2. git remote prune origin
+
+this will remove the stale branches from your local repository.
