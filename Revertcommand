@@ -1,0 +1,8 @@
+// git revert command
+// if you have 4-5 commit id's then use this command
+
+git revert commit id
+
+// if you have so many commit id's then 
+
+manually revert the code
