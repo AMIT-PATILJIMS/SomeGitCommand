@@ -1,0 +1,11 @@
+resolve merge conflicts 
+1. git pull --rebase origin master
+2. resolve merge conflicts 
+3. git rebase --continue
+4. seperate window will open insert (:wq)
+5. git rebase --continue
+
+if you still not able to push the code
+
+6. delete the remotes folder in .git -> refs
+7. git remote prune origin
